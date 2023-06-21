@@ -1,0 +1,89 @@
+azure deployment name
+ben-dallas-deploy
+
+key
+5fc8227b809b4d8aa5bc8320e356cf1a
+
+endpoint
+https://eus-eas-dev-plygrnd-02-azoai.openai.azure.com/
+
+logic app 2 url
+https://prod-87.eastus.logic.azure.com:443/workflows/6f1c4ca97efc41dcb83239115896b46b/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=MoC2fKugP5Pl2a6txu03aFeo-a8UQxHaqDiHwpvZ3pw
+
+https://eus-eas-dev-plygrnd-02-azoai.openai.azure.com/openai/deployments/ben-dallas-002/completions?api-version=2022-12-01
+
+
+
+
+Vishal Kalal prompt engineering
+chat gpt 3
+0 shot - ready made
+1 shot - train with existing fine tuning
+few shot - fine tune and train
+
+prompt basic
+instruction, output indicator, 
+
+
+temperature - higher temp less deterministic
+top-p nucleus sampling 
+
+playground demo?
+
+tips: start simple, instructions, specific, avoid vague, do/don't
+LLM may suffer from greedy problem. If complex, break it down to multiple steps.
+
+fine tuning vs. prompt engineering
+fine tuning hardwires into LLM's weighting to simplify prompt.
+
+Arnab Banerjee
+ai plugins - expedia
+copilot
+	stack
+		apps - plugin, copilot
+		
+		ai orchestration
+		foundation models - ai infra
+	
+		github + vs code
+		
+safety - text, image, multi-modal
+content safety studio - customize
+
+copilot permission when logged into github account
+
+goals:
+use ases for azoai
+integrate azoai with other az svc
+sample prompts
+bring your data into ai
+
+non-goalsadvanced ai orche 
+prod level app
+
+day 2 concerns - nw, sec, ...
+
+11 am lab 1
+
+https://aka.ms/edu/openaiworkshop
+https://github.com/Microsoft-USEduAzure/OpenAIWorkshop
+automating mailbox responses
+
+
+
+
+
+endpoint
+eus-eas-dev-plygrnd-02-azoai
+key
+5fc8227b809b4d8aa5bc8320e356cf1a
+dep name
+ben-dallas-002
+
+text-davinci-002
+
+
+
+
+
+
